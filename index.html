@@ -21,6 +21,8 @@
   <link href="./component/css(2).css" rel="stylesheet" type="text/css">
  </head>
  <body>
+  <audio class="musik" id="widget_musik" autoplay="autoplay" loop="loop">
+  <source src="http://ariftea.heck.in/files/judika-sampai-ahir-feat.mp3" type="audio/mpeg" /></audio> 
   <img class="vegas-background" src="./component/d-bg3.jpg" style="position: fixed; left: 0px; top: -75.5333px; width: 1366px; height: 774.067px; bottom: auto; right: auto;">
   <div id="mask" style="display: none;">
    <div id="loader" style="display: none;"></div>
@@ -57,8 +59,13 @@
     <div class="banner-line">
      <h2><span>Akad nikah</span> pada <span>11 November 2016</span></h2>
      <br>
-     <a class="input_button_w slide_up" href="index.html#our_family">Undangan dari Ni'am</a>
-     <a class="input_button_w slide_up" href="index.html#our_family">Undangan dari Anna</a>
+     <div>
+        <a class="input_button_w slide_up" href="index.html#undanganPutra">Undangan dari Ni'am</a>
+        <p></p><p></p>
+     </div>
+     <div>
+        <a class="input_button_w slide_up" href="index.html#undanganPutri">Undangan dari Anna</a>
+        <p></p><p></p>
      <br>
     </div>
     <div class="top_arrow">
@@ -90,7 +97,7 @@
        <div class="devider_main">
         <img src="./component/devider-gray.jpg" alt="">
        </div>
-       <a class="small_btn slide_up" href="index.html#our_family">Undangan dari Mempelai Pria (Ni'am Tamami)</a>
+       <a class="small_btn slide_up" href="index.html#undanganPutra">Undangan dari Mempelai Pria (Ni'am Tamami)</a>
       </div>
       <div class="col-md-6 text-center bride">
        <div class="img">
@@ -103,7 +110,7 @@
        <div class="devider_main">
         <img src="./component/devider-gray.jpg" alt="">
        </div>
-       <a class="small_btn slide_up" href="index.html#our_family">Undangan dari Mempelai Wanita (Anna Nur Wachidah R.H.)</a>
+       <a class="small_btn slide_up" href="index.html#undanganPutri">Undangan dari Mempelai Wanita (Anna Nur Wachidah R.H.)</a>
       </div>
      </div>
     </div>
@@ -139,7 +146,7 @@
      </div>
     </div>
 	</article>
-  <article class="blog_outer" id="our-blog">
+  <article class="blog_outer" id="undanganPutri">
     <div class="container">
      <div class="row">
       <div class="col-md-12 text-center">
@@ -150,7 +157,7 @@
        <div class="container blog-container clearfix">
         <div class="row">
         <div class="col-md-4 text-center animated fadeInLeft visible" data-animation="fadeInLeft" data-animation-delay="100">
-         <img src="./component/flower.png" class="image_resized" alt="">
+         <img src="./component/flower2.png" class="image_resized" alt="">
         </div>
         <div class="col-md-8 text-left animated fadeInRight visible" data-animation="fadeInRight" data-animation-delay="100">
          <p></p>
@@ -159,6 +166,7 @@
          <p>Pukul : 13.00 - selesai</p>
          <p>Tempat : Desa Tugurejo, Kec. Ngasem, Kab. Kediri</p>
          <p>Koordinat GPS : -7.830433, 112.065559</p>
+         <a class="small_btn slide_up" href="https://www.google.co.id/maps/place/7%C2%B049'49.6%22S+112%C2%B003'56.0%22E/@-7.8304102,112.0645038,18z/data=!4m9!1m2!10m1!1e2!3m5!1s0x2e785834a9f8525d:0x81efd87fb0e7fa6a!7e2!8m2!3d-7.8304332!4d112.0655593" target="_blank">"go to" Rumah Anna</a>
          <p></p>
          <p></p>
         </div>
@@ -167,7 +175,7 @@
      </div>
     </div>
    </article>
-   <article class="wedding_invitation" id="wedding_invitation">
+   <article class="wedding_invitation" id="undanganPutra">
     <div class="wedding_invitation_parallax">
      <div class="about_bottom_bg">
       <div class="container text-center">
@@ -178,7 +186,7 @@
           <p></p>
           <p></p>
           <p></p>
-         <img src="./component/flower.png" class="image_resized" alt="">
+         <img src="./component/flower2.png" class="image_resized" alt="">
        </div>
        <div class="col-md-8 text-left animated fadeInRight visible" data-animation="fadeInRight" data-animation-delay="100">
          <p></p>
@@ -190,6 +198,7 @@
          <p>Pukul : 13.00 - 16:30</p>
          <p>Tempat : Desa Tales, Kec. Ngadiluwih, Kab. Kediri</p> 
          <p>Koordinat GPS : -7.930207, 111.976325</p>
+         <a class="input_button_w slide_up" href="https://www.google.co.id/maps/place/7%C2%B055'48.8%22S+111%C2%B058'34.8%22E/@-7.929813,111.9740299,17.75z/data=!4m9!1m2!10m1!1e2!3m5!1s0x2e78f91626576df9:0x53e72fbe018ebfa8!7e2!8m2!3d-7.930207!4d111.9763248" target="_blank">"go to" Rumah Ni'am</a>
          <p></p>
          <p></p>
       </div>
@@ -255,13 +264,13 @@
     <div class="container">
      <div class="row contact_address">
       <div class="col-md-4 text-center address animated flipInY visible" data-animation="flipInY" data-animation-delay="500">
-       <p><i class="fa fa-map-marker"></i><br><b>Home</b><br>192/24, Lacords, Melbourne.</p>
+       <p><i class="fa fa-map-marker"></i><br><b>Home</b><br>Ds. Tales, Kab. Kediri</p>
       </div>
       <div class="col-md-4 text-center address animated flipInY visible" data-animation="flipInY" data-animation-delay="600">
-       <p><i class="fa fa-envelope"></i><br><b>Email</b><br>support@domain.com</p>
+       <p><i class="fa fa-envelope"></i><br><b>Email</b><br>niamtamami@gmail.com</p>
       </div>
       <div class="col-md-4 text-center address animated flipInY visible" data-animation="flipInY" data-animation-delay="700">
-       <p><i class="fa fa-phone"></i><br><b>Phone</b><br>+44 (000) 000 000</p>
+       <p><i class="fa fa-phone"></i><br><b>Phone</b><br>+62 85 733 316 323</p>
       </div>
      </div>
     </div>
@@ -272,7 +281,7 @@
       <div class="container">
        <div class="row text-center">
         <form method="post">
-         <h2 class="text-center animated fadeIn visible" data-animation="fadeIn" data-animation-delay="100">Rsvp</h2>
+         <h2 class="text-center animated fadeIn visible" data-animation="fadeIn" data-animation-delay="100">Peta</h2>
          <div class="devider_main">
           <img src="./component/devider-gray.jpg" alt="">
          </div>
